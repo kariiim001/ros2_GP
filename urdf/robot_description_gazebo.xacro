@@ -129,8 +129,8 @@
       <wheel_diameter>0.065</wheel_diameter>
 
       <!-- Adjust limits as per your robot's capabilities -->
-      <max_wheel_torque>20</max_wheel_torque> <!-- Maximum torque applied to the wheels -->
-      <max_wheel_accel>1.0</max_wheel_accel> <!-- Maximum acceleration of the wheels -->
+      <max_wheel_torque>200</max_wheel_torque> <!-- Maximum torque applied to the wheels -->
+      <max_wheel_accel>10.0</max_wheel_accel> <!-- Maximum acceleration of the wheels -->
 
       <!-- Choose whether to publish odometry, odom TF, and wheel TF -->
       <publish_odom>true</publish_odom> <!-- Whether to publish odometry -->
