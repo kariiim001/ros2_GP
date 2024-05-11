@@ -238,7 +238,7 @@
             <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
                 <ros>
                     <topicName>robot2_imu_data</topicName>
-                    <remapping>~/out:=imu</remapping>
+                    <remapping>~/out:=imu2</remapping>
                 </ros>
                 <initial_orientation_as_reference>false</initial_orientation_as_reference>
             </plugin>
@@ -335,7 +335,7 @@
         <update_rate>10.0</update_rate>
         <plugin filename="libgazebo_ros_ray_sensor.so" name="gazebo_lidar">
             <ros>
-              <remapping>~/out:=scan</remapping>
+              <remapping>~/out:=scan2</remapping>
             </ros>
             <output_type>sensor_msgs/LaserScan</output_type>
             <frame_name>robot2_lidar_link</frame_name>
